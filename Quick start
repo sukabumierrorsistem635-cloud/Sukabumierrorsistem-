@@ -1,0 +1,4 @@
+pkg update -y && pkg upgrade -y &&
+pkg install -y git python &&
+git clone https://example.com/sukabumi-error-sistem.git &&
+cd sukabumi-error-sistem && python setup.py
